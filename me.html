@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>mi moto</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <script src='JS/main.js'></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <span class="glyphicon glyphicon-sunglasses"> </span></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="motos.html">MOTOS</a></li>
+                    <li><a href="#">ME</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="title" class="jumbotron text-center">
+        <h1>Mi primera moto</h1>
+        <p>adivina cuál es?</p>
+    </div>
+    <div class="final text-center container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <img class="img-responsive moto" src="fotos/mm1.jpeg" alt="moto1" onclick="seleccion('a')">
+
+            </div>
+            <div class="col-sm-4">
+                <img class="img-responsive moto" src="fotos/mm2.jpeg" alt="moto1" onclick="seleccion('b')">
+            </div>
+            <div class="col-sm-4">
+                <img class="img-responsive moto" src="fotos/mm3.jpeg" alt="moto1" onclick="seleccion('c')">
+            </div>
+        </div>
+    </div>
+    <div id="alert1" class="">
+        <span id="sp1"><strong ></strong> </span>
+      </div>
+      <div id="caracteristicas">
+
+      </div>
+      <div id="video" class="">
+        <iframe width="100%" height="100%" id="frame" class="embed-responsive-item" src="fotos/incognitas.webp"></iframe> 
+      </div>
+    <ul class="pager">
+        <li><a href="motos.html">Previous</a></li>
+        <li><a href="#">Next</a></li>
+    </ul>
+    <footer class="container-fluid ">
+        <span class="text-left">Proyecto Final Desarrollo de paginas Web I </span> <span class="text-right"> OCT 2022 - MAR 2023</span>
+    </footer>
+</body>
+
+
+</html>

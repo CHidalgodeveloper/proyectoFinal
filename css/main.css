@@ -1,0 +1,64 @@
+img {
+    width: 70%;
+    height: 100%;
+
+}
+
+.carousel-inner img {
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%);
+
+    width: 100%;
+
+    margin: auto;
+}
+
+.textP {
+    color: #fff;
+}
+
+.col-sm-4 {
+
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 0;
+    transition: box-shadow 0.5s;
+
+}
+
+.col-sm-4:hover {
+    box-shadow: 5px 0px 40px rgba(0, 0, 0, .2);
+    
+
+
+}
+
+.description {
+    text-align: justify;
+}
+
+footer {
+    background-color: #2f2f2f;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.f1 {
+    text-align: left;
+}
+
+.f2 {
+    text-align: end;
+
+}
+
+#title {
+    background-color: #d6d3d1;
+}
+
+.moto {
+    width: 100%;
+
+}
+
